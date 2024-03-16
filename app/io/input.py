@@ -57,4 +57,4 @@ def read_text_from_csv_file(path):
         FileNotFoundError: If the file does not exist.
     """
     file_content = pd.read_csv(path)
-    return file_content.head()
+    return file_content
