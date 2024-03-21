@@ -8,7 +8,7 @@ def write_to_console(text):
         >>> write_to_console("Hello!")
 
     Args:
-        text (str): Text for writing to console.
+        text (any): Text for writing to console.
     """
     print(text)
 
